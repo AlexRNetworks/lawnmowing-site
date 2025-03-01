@@ -1,0 +1,20 @@
+{
+  "name": "southern-indiana-small-engine-sales",
+  "version": "1.0.0",
+  "description": "Website for Southern Indiana Small Engine Sales",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'This is a static site, no start command needed'",
+    "build": "echo 'This is a static site, no build command needed'",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "lawn",
+    "mower",
+    "sales",
+    "small",
+    "engine"
+  ],
+  "author": "Michigan",
+  "license": "MIT"
+}

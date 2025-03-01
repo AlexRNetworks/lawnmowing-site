@@ -1,0 +1,154 @@
+/* style.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Lighter background */
+    color: #333;
+}
+
+header {
+    background-color: #2196F3; /* Modern blue */
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+    color: #bbdefb; /* Lighter blue on hover */
+}
+
+nav a .material-symbols-outlined { /* style icons*/
+    margin-right: 5px;
+}
+
+section {
+    padding: 3em;
+    text-align: center;
+    background-color: white;
+    margin: 20px auto; /* Center sections */
+    max-width: 1200px; /* Max width for content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 25px;
+    justify-items: center;
+}
+
+.pricing-item {
+    width: 300px;
+    border: 1px solid #e0e0e0;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 1.2em;
+    transition: transform 0.3s ease;
+}
+
+.pricing-item img:hover {
+    transform: scale(1.05);
+}
+
+.price {
+    font-weight: 500;
+    color: #2196F3; /* Modern blue price */
+    font-size: 1.2em;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact-form label, #contact-form input, #contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.7em;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 0.8em;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    border-color: #2196F3;
+    outline: none;
+}
+
+#contact-form button {
+    background-color: #2196F3;
+    color: white;
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #1976D2;
+}
+
+footer {
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 1.5em 0;
+    margin-top: 30px;
+}
+
+.view-more-button {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 0.8em 2em;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.view-more-button:hover {
+    background-color: #1976D2;
+}
